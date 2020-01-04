@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf /home/ibad/backups/*
-BACKUPTIME=`date +%b-%d-%y` 
+BACKUPTIME=`date +%d-%b-%G` 
 DESTINATION=/home/ibad/backups/backup-$BACKUPTIME.tar.gz 
 SOURCEFOLDER1=/etc/ 
 SOURCEFOLDER2=/home/
