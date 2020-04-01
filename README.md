@@ -9,3 +9,6 @@ I use this script to create a tarball backup of my website files and configs on 
 ## [logcleaner.sh](https://github.com/ibadusmani/linux-scripts/blob/master/logcleaner.sh)
 I use this script to remove un-necessary entries on the log file that i use to track visitors.
 Usually these entries are the result of various webcrawlers crawling my website.
+
+## [commiter.sh](https://github.com/ibadusmani/linux-scripts/blob/master/commiter.sh)
+I use this script to make daily backups of my wiki and store it on github.
