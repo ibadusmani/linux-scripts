@@ -6,3 +6,5 @@ cat /home/username/logs/filename | grep -E "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b|\b([
 
 grep -v "http\|flare\|Flare\|bot\|perl\|python\|cloud\|Cloud\|face\|Face\|google" /home/username/logs/filename > temp && mv temp /home/username/logs/filename
 
+sudo chown www-data:www-data /home/username/logs/*
+sudo chmod 0664 /home/username/logs/*
